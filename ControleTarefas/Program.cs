@@ -1,1 +1,5 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using ControleTarefas;
+
+var gerenciador = new GerenciadorDeTarefas();
+
+gerenciador.AdicionarTarefa();

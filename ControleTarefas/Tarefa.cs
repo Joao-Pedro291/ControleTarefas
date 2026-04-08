@@ -1,15 +1,11 @@
-﻿namespace ControleTarefas;
-
-internal class Tarefa
+﻿public class Tarefa
 {
-    public Tarefa(string titulo, bool concluida)
+    public string Titulo { get; set; }
+    public bool Concluida { get; set; }
+
+    public Tarefa(string titulo)
     {
         Titulo = titulo;
         Concluida = false;
     }
-
-    public string? Titulo { get; set; }
-    public bool Concluida { get; set; }
-
 }
-    

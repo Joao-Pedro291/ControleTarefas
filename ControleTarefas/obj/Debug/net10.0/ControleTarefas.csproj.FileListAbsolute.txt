@@ -1,0 +1,15 @@
+D:\Projetos\ControleTarefas\ControleTarefas\bin\Debug\net10.0\ControleTarefas.exe
+D:\Projetos\ControleTarefas\ControleTarefas\bin\Debug\net10.0\ControleTarefas.deps.json
+D:\Projetos\ControleTarefas\ControleTarefas\bin\Debug\net10.0\ControleTarefas.runtimeconfig.json
+D:\Projetos\ControleTarefas\ControleTarefas\bin\Debug\net10.0\ControleTarefas.dll
+D:\Projetos\ControleTarefas\ControleTarefas\bin\Debug\net10.0\ControleTarefas.pdb
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.AssemblyInfoInputs.cache
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.AssemblyInfo.cs
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.csproj.CoreCompileInputs.cache
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.sourcelink.json
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.dll
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\refint\ControleTarefas.dll
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.pdb
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ControleTarefas.genruntimeconfig.cache
+D:\Projetos\ControleTarefas\ControleTarefas\obj\Debug\net10.0\ref\ControleTarefas.dll
