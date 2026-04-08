@@ -1,4 +1,7 @@
 ﻿
+using System.Xml;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 namespace ControleTarefas;
 
 internal class GerenciadorDeTarefas
@@ -11,27 +14,34 @@ internal class GerenciadorDeTarefas
         var tarefa = new Tarefa(titulo);
         _tarefas.Add(tarefa);
         Console.WriteLine($"Tarefa {tarefa.Titulo} criada com sucesso");
+        Console.Clear();
     }
 
     public void ListarTarefas()
     {
-        foreach (var tarefa in _tarefas)
+        for (int i = 0; i < _tarefas.Count; i++)
         {
+            var tarefa = _tarefas[i];
             var status = tarefa.Concluida ? "[X]" : "[ ]";
-            Console.WriteLine($"{tarefa.Titulo} {status}");   
+
+            Console.WriteLine($"{i + 1} - {status} {tarefa.Titulo}");
         }
     }
 
     public void MarcarComoConcluida()
     {
-        Console.WriteLine("Digite o nome da tarefa que deseja marcar como concluida: ");
-        var tarefaEscolhida = Console.ReadLine()!;
-        foreach (var tarefa in _tarefas)
+        Console.WriteLine("Digite o número da tarefa que deseja marcar como concluida: ");
+        var numeroTarefaEscolhida = int.Parse( Console.ReadLine()!);
+        if (numeroTarefaEscolhida > 0 && numeroTarefaEscolhida <= _tarefas.Count)
         {
-            if (tarefa.Titulo == tarefaEscolhida)
-            {
-                tarefa.Concluida = true;
-            }
+        _tarefas[numeroTarefaEscolhida - 1].Concluida = true;
         }
+        else
+        {
+            Console.WriteLine("Número inválido");
+            Console.WriteLine("Digite qualquer tecla para voltar ao menu");
+            Console.Read();
+        }
+        Console.Clear();
     }
 }

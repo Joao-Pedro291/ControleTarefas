@@ -10,6 +10,7 @@ while (true)
     Console.WriteLine("0 - Sair");
 
     var opcao = Console.ReadLine();
+    Console.Clear();
 
     if (opcao == "1")
     {
