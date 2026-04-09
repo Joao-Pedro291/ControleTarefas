@@ -2,6 +2,8 @@
 
 var gerenciador = new GerenciadorDeTarefas();
 
+gerenciador.CarregarDoArquivo();
+
 while (true)
 {
     Console.WriteLine("\n1 - Adicionar tarefa");
@@ -15,6 +17,7 @@ while (true)
     if (opcao == "1")
     {
         gerenciador.AdicionarTarefa();
+        gerenciador.SalvarEmArquivo();
     }
     else if (opcao == "2")
     {
@@ -22,7 +25,9 @@ while (true)
     }
     else if (opcao == "3")
     {
+        gerenciador.ListarTarefas();
         gerenciador.MarcarComoConcluida();
+        gerenciador.SalvarEmArquivo();
     }
     else if (opcao == "0")
     {
